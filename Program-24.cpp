@@ -27,7 +27,7 @@ int main()
     cout<<"Enter the element should be inserted: ";
     cin>>a[k];
     cout<<"[";
-    for(i=0;i<n;i++)
+    for(i=0;i<n+1;i++)
     {
         cout<<a[i]<<" ";
     }

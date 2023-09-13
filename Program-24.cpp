@@ -22,7 +22,7 @@ int main()
     cin>>k;
     for(i=n;i>=k;i--)
     {
-        a[n+1]=a[n];
+        a[i+1]=a[i];
     }
     cout<<"Enter the element should be inserted: ";
     cin>>a[k];

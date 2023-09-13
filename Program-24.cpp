@@ -20,7 +20,7 @@ int main()
     cout<<"]."<<endl;
     cout<<"Enter the Position where element should insert: ";
     cin>>k;
-    for(i=n;i<=k;i--)
+    for(i=n;i>=k;i--)
     {
         a[n+1]=a[n];
     }
